@@ -210,15 +210,6 @@ section{position:relative;padding:64px 0 78px}
 .pipe-step b{width:19px;height:19px;border-radius:50%;background:var(--grad);color:#fff;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:800}
 .pipe-arrow{margin:0 8px;color:var(--text3);font-size:11px}
 
-/* ===== SKILLS marquee ===== */
-.skills-marquee{margin-bottom:40px;display:flex;flex-direction:column;gap:12px}
-.mq-row{overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
-.mq-track{display:flex;gap:12px;width:max-content}
-.mq-track.left{animation:mqleft 30s linear infinite}
-.mq-track.right{animation:mqright 34s linear infinite}
-@keyframes mqleft{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
-@keyframes mqright{0%{transform:translateX(-50%)}100%{transform:translateX(0)}}
-.mq-chip{padding:9px 18px;border-radius:999px;background:var(--card-bg);border:2px solid var(--ink);font-family:var(--display);font-weight:600;font-size:13.5px;white-space:nowrap}
 .skills-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 .sk-card{padding:22px}
 .sk-icon{width:42px;height:42px;border-radius:14px;background:var(--grad);display:flex;align-items:center;justify-content:center;font-size:17px;color:#fff;margin-bottom:12px;transform:rotate(-4deg)}
@@ -625,17 +616,6 @@ footer{padding:26px 0;text-align:center;font-family:var(--mono);font-size:11px;c
     <div class="eyebrow rv">Toolset</div>
     <div class="sec-title rv">Skills &amp; <span class="g">Capabilities</span></div>
     <p class="sec-sub rv">Languages, frameworks, AI/ML tooling, cloud infra.</p>
-
-    <div class="skills-marquee rv">
-      <div class="mq-row"><div class="mq-track left">
-        <span class="mq-chip">Python</span><span class="mq-chip">TypeScript</span><span class="mq-chip">FastAPI</span><span class="mq-chip">LangChain</span><span class="mq-chip">RAG</span><span class="mq-chip">FAISS</span><span class="mq-chip">PyTorch</span><span class="mq-chip">React</span><span class="mq-chip">Kafka</span><span class="mq-chip">AWS</span>
-        <span class="mq-chip">Python</span><span class="mq-chip">TypeScript</span><span class="mq-chip">FastAPI</span><span class="mq-chip">LangChain</span><span class="mq-chip">RAG</span><span class="mq-chip">FAISS</span><span class="mq-chip">PyTorch</span><span class="mq-chip">React</span><span class="mq-chip">Kafka</span><span class="mq-chip">AWS</span>
-      </div></div>
-      <div class="mq-row"><div class="mq-track right">
-        <span class="mq-chip">Docker</span><span class="mq-chip">Kubernetes</span><span class="mq-chip">PostgreSQL</span><span class="mq-chip">OpenAI API</span><span class="mq-chip">Next.js</span><span class="mq-chip">Terraform</span><span class="mq-chip">Elasticsearch</span><span class="mq-chip">Azure</span><span class="mq-chip">MLflow</span><span class="mq-chip">GCP</span>
-        <span class="mq-chip">Docker</span><span class="mq-chip">Kubernetes</span><span class="mq-chip">PostgreSQL</span><span class="mq-chip">OpenAI API</span><span class="mq-chip">Next.js</span><span class="mq-chip">Terraform</span><span class="mq-chip">Elasticsearch</span><span class="mq-chip">Azure</span><span class="mq-chip">MLflow</span><span class="mq-chip">GCP</span>
-      </div></div>
-    </div>
 
     <div class="skills-grid">
       <div class="card sk-card rv"><div class="sk-icon"><i class="fas fa-keyboard"></i></div><div class="sk-title">Languages</div><div class="sk-sub">Programming</div><div class="sk-tags"><span class="sk-tag">Python</span><span class="sk-tag">TypeScript</span><span class="sk-tag">JavaScript</span><span class="sk-tag">Java</span><span class="sk-tag">SQL</span><span class="sk-tag">Scala</span><span class="sk-tag">R</span><span class="sk-tag">Bash</span></div></div>
